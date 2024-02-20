@@ -1,19 +1,45 @@
-# UnityMultiplayerSample
-
-## English
-
-### Introduction
-
-This repository, `UnityMultiplayerSample`, is a carefully curated selection of Unity-based multiplayer game development samples. These samples demonstrate key techniques for managing network communication, handling events, and implementing gameplay mechanics in multiplayer environments. The code provided here is part of an actual game currently under development, aiming to offer insights into Unity multiplayer game programming.
-
-To get a closer look at the gameplay and the multiplayer functionality in action, check out our video walkthrough: [Gameplay Video](https://youtu.be/-uOAfE42V2I). [Blog Post(Korean)](https://kwan-dev.tistory.com/102)
+# Unity Multiplayer Game Sample
 
 ## 한국어
 
-### 소개
+### 프로젝트 개요
+이 프로젝트는 Unity로 개발 중인 멀티플레이어 RTS 게임의 샘플 코드를 포함하고 있습니다. 본 게임은 오토체스류의 상점 메커니즘과 RTS 스타일 전투를 기반으로 하며, Procedural 생성된 던전에서 PvE 및 PvP 전투를 펼칩니다.
 
-`UnityMultiplayerSample` 리포지토리는 유니티 기반 멀티플레이어 게임 개발 샘플을 신중하게 선별한 컬렉션입니다. 이 샘플들은 네트워크 통신 관리, 이벤트 처리, 멀티플레이어 환경에서의 게임플레이 메커닉 구현에 대한 핵심 기술을 보여줍니다. 여기 제공된 코드는 현재 개발 중인 실제 게임의 일부로, 유니티 멀티플레이어 게임 프로그래밍에 대한 통찰력을 제공하는 것을 목표로 합니다.
+### 주요 기능
+- 멀티플레이어 지원
+- 상점 리롤 시스템
+- Procedural 던전 생성
+- RTS 방식 컨트롤
 
-게임플레이와 멀티플레이어 기능을 직접 보고 싶으시다면, 링크를 확인해 주세요.
+### 기술 스택
+- Unity HDRP
+- Fishnet V4 & Unity Gaming Service
+- UniTask & UniRx
+- DOTween
+- Odin Editor
+- PlasticSCM
 
-[Gameplay Video](https://youtu.be/-uOAfE42V2I). [Blog Post(Korean)](https://kwan-dev.tistory.com/102)
+### 알림
+이 저장소의 코드는 포트폴리오 목적으로 일부만 공개되어 있습니다. 실행 영상은 [시연 영상](https://youtu.be/-uOAfE42V2I)을 참고해주세요.
+
+## English
+
+### Project Overview
+This project contains sample code for a multiplayer RTS game being developed in Unity. The game is based on an auto-chess-like shop mechanism and RTS-style combat, featuring PvE and PvP battles in procedurally generated dungeons.
+
+### Key Features
+- Multiplayer support
+- Shop reroll system
+- Procedurally generated dungeons
+- RTS-style controls
+
+### Tech Stack
+- Unity HDRP
+- Fishnet V4 & Unity Gaming Service
+- UniTask & UniRx
+- DOTween
+- Odin Editor
+- PlasticSCM
+
+### Notice
+This repository only shares a portion of the code for portfolio purposes. To experience the full game, please refer to the [demo video](https://youtu.be/-uOAfE42V2I).
